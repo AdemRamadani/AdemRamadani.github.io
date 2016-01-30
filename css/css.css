@@ -1,0 +1,275 @@
+body {
+	box-sizing: border-box;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    width: 100%;
+}
+
+div.center {
+    text-align: center;
+}
+
+.logoheader {
+    display: inline;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.logo_github_header {
+    color: black;
+}
+
+.logo_twitter_header {
+    color: orange;
+}
+
+.logo_linkedin_header {
+    color: gray;
+}
+
+.title {
+	font-size: 50px;
+	text-align: right;
+	text-transform: uppercase;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.subtitle {
+	font-size: 30px;
+	text-align: right;
+	text-transform: uppercase;
+    color: orange;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+hr {
+    border: solid 0px #eee;
+    border-top: 2px solid #eee;
+}
+
+hr.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meimg {
+	width: 80%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px silver;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style:none;
+    padding-left: 0px;
+}
+
+ul.header {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    list-style:none;
+}
+
+.libulletpoint {
+    font-size: 26px;
+}
+
+.fa-circle-thin {
+    margin-right: 10px;
+}
+
+.fa-circle-thin:hover {
+    -webkit-color: orange; /* Chrome, Safari, Opera */
+    -moz-filter: orange;
+    -ms-filter: orange;
+    -o-filter: orange;
+    color: orange;
+}
+
+.hrsmallmargin {
+    margin: 1px;
+}
+
+/* Here I should add some h4 and h5 styling*/
+h4 {
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+ h5 {
+    font-size: 20px;
+
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+/* put code indide of here */
+
+
+.hrstyle {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, orange, #ccc);
+    margin-bottom: 20px;
+}
+
+/* here I should the projects ...still hmm */
+
+.img-responsive {
+    width: 90%;
+    border: solid 1px silver;
+    margin: 5px;
+}
+
+.hpadding {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* please only abov*/
+
+ul.footer {
+    background: silver;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    list-style:none;
+}
+
+ul.footer li {
+
+}
+
+.logo_footer {
+    color: black;
+}
+
+.logo_footer:hover {
+    -webkit-color: orange; /* Chrome, Safari, Opera */
+    -moz-filter: orange;
+    -ms-filter: orange;
+    -o-filter: orange;
+    color: orange;
+}
+
+.logofooter {
+    display: inline;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 599px) {
+
+    .title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .libulletpoint {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+    }
+
+    hr {
+        margin: 25px;
+    }
+
+    .meimg {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .libulletpoint {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .libulletpoint {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

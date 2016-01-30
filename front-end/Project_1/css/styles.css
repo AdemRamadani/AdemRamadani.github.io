@@ -1,0 +1,43 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: red;
+	font-weight: 300;
+}
+
+a {
+	color: black;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.txt-muted {
+	color: #a9a9a9;
+}
+
+.title-font {
+	font-size: 40px;
+	color: #606060;
+}
+
+.subtitle-font {
+	font-size: 18px;
+}
+
+.header-margin{
+	margin-top: 20px;
+}
+
+.modal-font {
+	font-size: 14px;
+	color: #705551;
+}
+
+.grey-font {
+	color: #404040;
+}
+
+.padd-left {
+	padding-left: 15px;
+}

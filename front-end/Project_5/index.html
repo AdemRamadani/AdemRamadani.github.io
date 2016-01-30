@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neighbourhood Map! | Udacity Front-End Nanodegree - Project 5</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/knockout-3.4.0.js"></script>
+	<script type="text/javascript" src="js/oauth-signature.min.js"></script>
+	<script type="text/javascript" src="js/neighbourhood.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH_5dk2rUPaTFhkRWn6byvKcO5z4yD0gs&callback=initMap"></script>
+
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+</head>
+<body>
+	<div class="list" data-bind="ifnot:listInvisible, css:{invisible:listInvisible()}">
+		<input type="text" placeholder="Search..." data-bind="textInput:searchString">
+		<ul data-bind="foreach:locationList">
+			<div data-bind="if:visible">
+				<li data-bind="click:$parent.openInfoWindow, css:{selected:selected()}">
+					<h1 data-bind="text:storeName"></h1>
+					<p data-bind="text:motto"></p>
+				</li>
+			</div>
+		</ul>
+	</div>
+	<button class="hide-button" data-bind="click:hideShowList, text:hideButtonArrow"></button>
+	<div id="map"></div>
+</body>
+</html>

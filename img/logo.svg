@@ -1,0 +1,13 @@
+<svg width="262" height="62" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="64" width="264" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <circle stroke-width="NaN" fill="#000000" r="30" cy="31" cx="31" id="e6_circle"/>
+  <circle stroke-width="0" fill="#ff7f00" r="30" cy="31" cx="131" id="e7_circle"/>
+  <circle stroke-width="NaN" fill="#7f7f7f" r="30" cy="31" cx="231" id="e8_circle"/>
+ </g>
+</svg>

@@ -1,0 +1,151 @@
+nav .space {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+* {
+  width:100%;
+}
+
+.hrstyle {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, orange, #ccc);
+}
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	font-weight: 300;
+}
+
+a {
+	color: black;
+}
+
+.black-text {
+	color:black;
+	font-size: 20px;
+}
+
+.pix {
+	max-width: 300px;
+    box-shadow: 0 0 5px silver;
+}
+
+.xyza {
+	border: #ccccff;
+    border-style: dashed;
+    border-width: 4px;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+.xyza:hover {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+    box-shadow: 0 0 10px orange;
+}
+
+ .title {
+    font-size: 60px;
+    font-size: 5vw;
+ }
+
+.subtitle {
+    font-size: 30px;
+    color: silver;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.txt-muted {
+	color: #262626;
+}
+
+.title-font {
+	font-size: 40px;
+	color: #606060;
+}
+
+.subtitle-font {
+	font-size: 18px;
+}
+
+.header-margin{
+	margin-top: 20px;
+}
+
+.modal-font {
+	font-size: 14px;
+	color: #705551;
+}
+
+.grey-font {
+	color: #404040;
+}
+
+.padd-left {
+	padding-left: 15px;
+}
+
+/* footer */
+
+.logo-ds {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.footerColor {
+    background-color: gray;
+}
+
+h1:hover , h2:hover , h3:hover , h4:hover , h5:hover , h6:hover , a:hover , p:hover, li:hover  {
+    -webkit-color: orange; /* Chrome, Safari, Opera */
+    -moz-filter: orange;
+    -ms-filter: orange;
+    -o-filter: orange;
+    color: orange;
+}
+
+.fa-arrow-circle-right {
+	padding-bottom: 10px;
+}
+
+.logo-small {
+	max-width: 250px;
+	padding-top: 30px;
+
+}
+
+.hpadding {
+	padding-bottom: 30px;
+}
